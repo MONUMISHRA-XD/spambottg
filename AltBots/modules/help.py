@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ sʜɪᴠᴀᴍ sᴘᴀᴍ ʙᴏᴛ ʜᴇʟᴘ ᴍᴇɴᴜ\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ : @Shivam_jaiswal0011**"
+HELP_STRING = f"★ TECH WITH MONU sᴘᴀᴍ ʙᴏᴛ ʜᴇʟᴘ ᴍᴇɴᴜ\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ : @MONUMISHRA_XD**"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Earning_with_shivam_official"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Earn_without_investment01")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TECH_WITH_MONU"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TWM_DISCUSSIONS")
     ]
   ]
 
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @Shivam_jaiswal0011**
+**© @MONUMISHRA_XD**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @Shivam_jaiswal0011**
+**© @MONUMISHRA_XD**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @Shivam_jaiswal0011**
+** © @MONUMISHRA_XD**
 """                     
            
            
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Earning_with_shivam_official"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Earn_without_investment01")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TECH_WITH_MONU"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TWM_DISCUSSIONS")
               ]
             ]
           )
     else:
-        await event.answer("Make Your Own Shivam Spam Bot !! @Shivam_jaiswal0011", cache_time=0, alert=True)
+        await event.answer("Make Your Own TECH WITH MONU Spam Bot !! @MONUMISHRA_XD", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Shivam Spam Bot !! @Shivam_jaiswal0011", cache_time=0, alert=True)
+        await event.answer("Make Your Own  Spam Bot !! @MONUMISHRA_XD", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Shivam Spam Bot !! @Shivam_jaiswal0011", cache_time=0, alert=True)
+        await event.answer("Make Your Own  Spam Bot !! @MONUMISHRA_XD", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Shivam spam Bot !! @Shivam_jaiswal0011", cache_time=0, alert=True)
+        await event.answer("Make Your Own  spam Bot !! @MONUMISHRA_XD", cache_time=0, alert=True)

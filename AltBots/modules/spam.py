@@ -1,4 +1,4 @@
-# © @Shivam_jaiswal0011
+# © @MONUMISHRA_XD
 import asyncio
 
 from AltBots.data import GROUP, PORMS
