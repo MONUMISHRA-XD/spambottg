@@ -34,8 +34,8 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [Sʜɪᴠᴀᴍ ꭙ Jᴀɪsᴡᴀʟ](https://t.me/MONUMISHRA_XD)**\n\n"
-        TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [MONU MISHRA](https://t.me/MONUMISHRA_XD)**\n\n"
+        TEXT += f"» **ʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━\n\n🥀 ᴛʜɪs ɪs sᴘᴀᴍ ʙᴏᴛ ᴅᴏɴ'ᴛ ᴛʜɪɴᴋ I ᴀᴍ ᴏᴡɴᴇʀ [ɪ ᴀᴍ Jᴜsᴛ ᴄᴏᴅᴇ ᴅᴇᴘʟᴏᴇʀ](https://t.me/MONUMISHRA_XD) , ᴜsᴇ sᴘᴀᴍʙᴏᴛ ᴀɴᴅ ᴇɴJᴏʏ"
         await event.client.send_file(
